@@ -25,16 +25,15 @@ The form in `#apply-form` currently just shows a success message locally — it 
 - **Netlify Forms**: if deploying on Netlify, add `data-netlify="true"` and a hidden `form-name` input to the `<form>` tag — Netlify handles the rest.
 - **Your own backend**: `fetch()` the form data to your API in `script.js`.
 
-## Connect real call booking
+## Call booking
 
-Replace the placeholder in the `#booking` section with your scheduling tool's embed code, e.g. Calendly:
+The `#booking` section is already wired to a live Calendly inline widget pointing at:
 
-```html
-<div class="calendly-inline-widget" data-url="https://calendly.com/your-username/discovery-call" style="min-width:320px;height:700px;"></div>
-<script src="https://assets.calendly.com/assets/external/widget.js"></script>
+```
+https://calendly.com/uthmanayomide43/30min
 ```
 
-Also update the fallback link `https://calendly.com/your-link` to your real booking URL.
+If you ever change your Calendly event link, update the `data-url` on the `.calendly-inline-widget` div in `index.html` (and the fallback `<a>` link right below it in the `<noscript>` block) to match.
 
 ## Deploy
 
