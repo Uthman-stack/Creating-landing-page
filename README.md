@@ -1,5 +1,7 @@
 # 1:1 Coaching Landing Page
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Uthman-stack/Creating-landing-page&project-name=coaching-landing-page&repository-name=coaching-landing-page)
+
 A single-page site for attracting coaching clients: application form → free discovery call booking.
 
 ## Files
@@ -37,7 +39,15 @@ If you ever change your Calendly event link, update the `data-url` on the `.cale
 
 ## Deploy
 
-Any static host works, e.g.:
+### Vercel (recommended)
+
+Click the **Deploy with Vercel** button at the top of this README, or:
+
+1. Go to [vercel.com/new](https://vercel.com/new) and import `Uthman-stack/Creating-landing-page`.
+2. Leave all build settings as-is — this is a static site, no framework/build step needed.
+3. Click **Deploy**. Vercel gives you a live URL immediately, and redeploys automatically on every push to `main`.
+
+### Other static hosts
 
 - **GitHub Pages**: push this repo, enable Pages on the branch/`main`, root folder.
-- **Netlify / Vercel**: drag-and-drop the folder or connect the repo — no build step needed.
+- **Netlify**: drag-and-drop the folder or connect the repo — no build step needed.
