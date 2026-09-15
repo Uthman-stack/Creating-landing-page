@@ -269,6 +269,8 @@ p { margin: 0 0 1em; }
   aspect-ratio: 1 / 1;
   border-radius: var(--radius);
   background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  object-fit: cover;
+  display: block;
 }
 .about-text p { color: var(--color-text-muted); }
 
