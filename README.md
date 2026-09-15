@@ -1,8 +1,8 @@
-# 1:1 Coaching Landing Page
+# GetFitWithUthman — Coaching Landing Page
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Uthman-stack/Creating-landing-page&project-name=coaching-landing-page&repository-name=coaching-landing-page)
 
-A single-page site for attracting coaching clients: application form → free discovery call booking.
+A single-page site for GetFitWithUthman, 1:1 online coaching for skinny guys who want to build muscle: application form → free discovery call booking.
 
 ## Files
 
@@ -12,12 +12,11 @@ A single-page site for attracting coaching clients: application form → free di
 
 ## Customize before launch
 
-1. **Branding**: replace `YOUR NAME` in the header/footer and the page `<title>`.
-2. **Hero copy**: edit the headline, subheading, and eyebrow text in the `.hero` section.
-3. **About section**: replace the placeholder bio, and swap `.about-photo` for a real `<img>`.
-4. **Testimonials**: replace placeholder quotes and names with real client results (get permission first).
-5. **FAQ**: fill in real answers (program length, pricing, refund policy, session format).
-6. **Contact email**: update `you@example.com` in the footer.
+1. **About section**: replace the placeholder bio paragraph with your real training background, experience, and any certifications or results.
+2. **Testimonials**: replace placeholder quotes and names with real client results (get permission first).
+3. **FAQ**: fill in real answers (program length, pricing, refund/guarantee policy, gym/equipment requirements, check-in format).
+4. **Contact email**: update `hello@getfitwithuthman.com` in the footer to your real inbox.
+5. **Photo**: swap `.about-photo` (currently a gradient placeholder) for a real `<img>` of you.
 
 ## Connect the application form
 
