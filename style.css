@@ -173,6 +173,12 @@ p { margin: 0 0 1em; }
   margin: 0 auto 40px;
 }
 
+/* My Story */
+.story-inner {
+  max-width: 720px;
+}
+.story-inner p { color: var(--color-text-muted); }
+
 /* Who this is for */
 .grid-2 {
   display: grid;
